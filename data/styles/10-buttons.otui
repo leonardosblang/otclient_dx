@@ -1,21 +1,20 @@
 Button < UIButton
-  font: verdana-11px-antialised
-  color: #dfdfdfff
+  color: #FFFFFFff
   size: 106 23
   text-offset: 0 0
   image-source: /images/ui/button
-  image-color: #dfdfdf
+  image-color: #FFFFFF
   image-clip: 0 0 22 23
   image-border: 3
   padding: 5 10 5 10
-  opacity: 1.0
+  opacity: 0.95
 
   $pressed:
     image-clip: 0 46 22 23
     text-offset: 1 1
 
   $disabled:
-    color: #dfdfdf88
+    color: #FFFFFF88
     opacity: 0.8
 
 TabButton < UIButton
@@ -168,7 +167,8 @@ NextQtButton < UIButton
     image-clip: 48 16 16 16
 
 QtButton < UIButton
-  font: cipsoftFont
+
+
   size: 106 23
   text-offset: 0 0
   image-source: /images/ui/button

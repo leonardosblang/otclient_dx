@@ -1,0 +1,28 @@
+FontSource
+{
+  name = "verdana-bold"
+  source = "/fonts/verdanab.ttf"
+  size = 11
+  antialias = true
+  smooth = true
+}
+
+Font
+{
+  name = "verdana-bold-11px-antialised"
+  source = "verdana-bold"
+  static-size = true
+  y-offset = 0
+  spacing = 0
+  color = "#FFFFFF"
+}
+
+Font
+{
+  name = "verdana-bold-11px-rounded"
+  source = "verdana-bold"
+  static-size = true
+  y-offset = 0
+  spacing = 0
+  color = "#FFFFFF"
+}

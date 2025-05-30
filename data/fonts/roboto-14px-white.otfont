@@ -1,0 +1,38 @@
+FontSource
+{
+  name = "verdana"
+  source = "/fonts/verdana.ttf"
+  size = 11
+  antialias = true
+  smooth = true
+}
+
+Font
+{
+  name = "verdana-11px-antialised"
+  source = "verdana"
+  static-size = true
+  y-offset = 0
+  spacing = 0
+  color = "#FFFFFF"
+}
+
+Font
+{
+  name = "verdana-11px-rounded"
+  source = "verdana"
+  static-size = true
+  y-offset = 0
+  spacing = 0
+  color = "#FFFFFF"
+}
+
+Font
+{
+  name = "cipsoftFont"
+  source = "verdana"
+  static-size = true
+  y-offset = 0
+  spacing = 0
+  color = "#FFFFFF"
+}

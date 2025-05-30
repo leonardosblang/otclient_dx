@@ -6,12 +6,19 @@ local resourceLoaders = {
 
 function init()
     local device = g_platform.getDevice()
-    importResources("styles", "otui", device)
+    
+    -- Import fonts first to avoid errors
     importResources("fonts", "otfont", device)
+    
+    -- Import other resources
+    importResources("styles", "otui", device)
     importResources("particles", "otps", device)
 
     g_mouse.loadCursors('/cursors/cursors')
     g_gameConfig.loadFonts()
+    
+    -- Load dark theme implementation
+    pcall(function() dofile('dark_theme.lua') end)
 end
 
 function terminate()
@@ -22,7 +29,7 @@ function importResources(dir, type, device)
     local files = g_resources.listDirectoryFiles(path)
     for _, file in pairs(files) do
         if g_resources.isFileType(file, type) then
-            resourceLoaders[type](path .. file)
+            pcall(function() resourceLoaders[type](path .. file) end)
         end
     end
 

@@ -63,7 +63,6 @@ ColorBox < UICheckBox
     image-clip: 0 0 16 16
 
 ButtonBox < UICheckBox
-  font: verdana-11px-antialised
   color: #dfdfdfff
   size: 106 23
   text-offset: 0 0
@@ -106,7 +105,6 @@ QtCheckBox < UICheckBox
     image-clip: 0 26 14 14
 
 fakeCheckBox < UICheckBox
-  font: cipsoftFont
   size: 106 23
   image-source: /images/ui/button
   image-clip: 0 0 22 23

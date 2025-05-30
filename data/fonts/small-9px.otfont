@@ -1,7 +1,18 @@
+FontSource
+{
+  name = "verdana-small"
+  source = "/fonts/verdana.ttf"
+  size = 9
+  antialias = true
+  smooth = true
+}
+
 Font
-  name: small-9px
-  texture: small-9px
-  height: 9
-  glyph-size: 9 9
-  space-width: 3
-  spacing: 1 0
+{
+  name = "small-9px"
+  source = "verdana-small"
+  static-size = true
+  y-offset = 0
+  spacing = 0
+  color = "#FFFFFF"
+}

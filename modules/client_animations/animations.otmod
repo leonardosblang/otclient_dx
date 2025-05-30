@@ -1,0 +1,9 @@
+Module
+  name: client_animations
+  description: Provides UI animation effects
+  author: OTClient Enhanced
+  website: https://github.com/edubart/otclient
+  sandboxed: true
+  scripts: [ animations.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

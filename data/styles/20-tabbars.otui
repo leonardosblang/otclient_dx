@@ -129,7 +129,6 @@ TabBarVerticalButton < UIButton
 
 TabBarQtVerticalPanel < Panel
 TabBarQtVerticalButton < UIButton
-  font: cipsoftFont
   size: 114 21
   anchors.left: parent.left
   anchors.right: parent.right

@@ -1,0 +1,75 @@
+Particle
+{
+  name: background-effect
+  duration: 0
+  loop: true
+  texture: /images/ui/dark_theme/particle
+  size-effect: true
+  composition-enabled: true
+  composition-mode: normal
+  colors: #3333ff99, #6633ff99, #9933ff99
+  colors-stops: 0, 0.5, 1
+  size: 2 4
+  duration: 0
+  min-position-radius: 0 0
+  max-position-radius: 1000 600
+  min-velocity: -0.5 -0.5
+  max-velocity: 0.5 0.5
+  min-acceleration: 0 0
+  max-acceleration: 0 0
+  min-rotation: 0
+  max-rotation: 0
+  min-rotation-velocity: 0
+  max-rotation-velocity: 0
+  min-rotation-acceleration: 0
+  max-rotation-acceleration: 0
+  min-scale-velocity: 0 0
+  max-scale-velocity: 0 0
+  min-scale-acceleration: 0 0
+  max-scale-acceleration: 0 0
+  min-radius: 0
+  max-radius: 0
+  min-radius-velocity: 0
+  max-radius-velocity: 0
+  min-radius-acceleration: 0
+  max-radius-acceleration: 0
+  min-life: 10
+  max-life: 20
+  min-redraw-time: 0
+  max-redraw-time: 0
+  system-distance: 0
+  system-lifetime: 0
+  system-delay: 0
+  system-loop: true
+  system-first-delay: 0
+  system-min-life: 0
+  system-max-life: 0
+  system-min-position-radius: 0 0
+  system-max-position-radius: 0 0
+  system-min-velocity: 0 0
+  system-max-velocity: 0 0
+  system-min-acceleration: 0 0
+  system-max-acceleration: 0 0
+  system-min-scale-velocity: 0 0
+  system-max-scale-velocity: 0 0
+  system-min-scale-acceleration: 0 0
+  system-max-scale-acceleration: 0 0
+  system-min-rotation-velocity: 0
+  system-max-rotation-velocity: 0
+  system-min-rotation-acceleration: 0
+  system-max-rotation-acceleration: 0
+  system-min-radius-velocity: 0
+  system-max-radius-velocity: 0
+  system-min-radius-acceleration: 0
+  system-max-radius-acceleration: 0
+  system-min-redraw-time: 0
+  system-max-redraw-time: 0
+  system-burst-rate: 100
+  system-burst-count: 100
+  system-burst-min-rate: 0
+  system-burst-max-rate: 0
+  system-burst-min-count: 0
+  system-burst-max-count: 0
+  system-burst-min-distance: 0
+  system-burst-max-distance: 0
+}

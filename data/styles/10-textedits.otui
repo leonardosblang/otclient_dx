@@ -1,17 +1,16 @@
 TextEdit < UITextEdit
-  font: verdana-11px-antialised
-  color: #f4f4f4ff
+  color: #FFFFFFff
   size: 86 22
   text-offset: 0 4
-  opacity: 1
+  opacity: 0.95
   padding: 4
   padding-bottom: 1
   image-source: /images/ui/textedit
   image-border: 1
   selection-color: #ffffffff
-  selection-background-color: #808080ff
+  selection-background-color: #505050ff
   $disabled:
-    color: #c0c0c0ff
+    color: #FFFFFFaa
     opacity: 0.5
 
 PasswordTextEdit < TextEdit
@@ -21,7 +20,6 @@ MultilineTextEdit < TextEdit
   multiline: true
 
 TextQtEdit < UITextEdit
-  font: verdana-11px-antialised
   color: #c0c0c0ff
   size: 86 22
   text-offset: 0 4

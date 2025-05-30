@@ -1,7 +1,7 @@
 Panel
   id: background
   image-source: /images/background
-  image-smooth: false
+  image-smooth: true
   image-fixed-ratio: true
   anchors.top: parent.top
   anchors.left: parent.left
@@ -20,7 +20,6 @@ Panel
     width: 120
     padding: 2
     color: #ffffff
-    font: verdana-11px-monochrome
 
   UIParticles
     id: particles

@@ -1,8 +1,7 @@
 Window < UIWindow
-  font: verdana-11px-antialised
   size: 200 200
-  opacity: 1
-  color: #dfdfdf
+  opacity: 0.95
+  color: #FFFFFF
   text-offset: 0 6
   text-align: top
   image-source: /images/ui/window
@@ -14,7 +13,7 @@ Window < UIWindow
   padding-bottom: 16
 
   $disabled:
-    color: #dfdfdf88
+    color: #FFFFFF88
 
   $dragging:
     opacity: 0.8
